@@ -1,0 +1,71 @@
+[credential]
+	helper = !\\\"C:/Program Files (x86)/GitExtensions/GitCredentialWinStore/git-credential-winstore.exe\\\"
+	
+[gui]
+	recentrepo = C:/temp/source
+
+[http]
+	sslVerify = false
+
+[user]
+	name = lcmassena
+	email = lcmassena@msn.com
+	
+[alias]
+	#log
+	l  = log --graph --pretty=format:'%C(yellow)%h  %C(red)[%an]  %C(white)[%cr - %cd]  %C(cyan)%d%n  %C(white)%s%n'
+	la  = log --graph --pretty=format:'%C(yellow)%h  %C(red)[%an]  %C(white)[%cr - %cd]  %C(cyan)%d%n  %C(white)%s%n' --all
+	lf  = log --graph --pretty=format:'%C(yellow)%h  %C(red)[%an]  %C(white)[%cr - %cd]  %C(cyan)%d%n  %C(white)%s%n' --all --name-status
+
+	#status
+	s = status
+	#remotes
+	co = checkout
+	ci = commit
+	f = fetch -v #--all
+	u = !git fetch --all && git status
+	f = fetch -v
+
+	u = !"git fetch && git status"
+	bl = branch -rvva
+	bo = branch -rvv --no-merged
+	bi = branch -rvv --merged
+
+	bfix = branch -rvv --list */bugfix/* --no-merged
+	hfix = branch -rvv --list */hotfix/* --no-merged
+
+	# fun trace commands
+	wtf = whatchanged -p
+	stalk = !"git lf --author "
+	find = !"git l --grep "
+
+[core]
+	editor = 'c:/Program Files (x86)/Vim/vim74/gvim.exe'
+	autocrlf = true
+	excludesfile = C:\\Users\\lcmas\\gitignore_global.txt
+
+[push]
+	#changing the default push (with no parameters) to push only current branch to the remote repo
+	default = simple
+
+#diff configuration
+[diff]
+	tool = vsdiffmerge
+[difftool]
+	prompt = true
+[difftool "vsdiffmerge"]
+	cmd = \"C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\vsdiffmerge.exe\" \"$LOCAL\" \"$REMOTE\" //t
+[difftool "vsdiffmerge"]
+	keepbackup = false
+
+[merge]
+	tool = vsdiffmerge
+[mergetool]
+	prompt = true
+[mergetool "vsdiffmerge"]
+	cmd = \"C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\vsdiffmerge.exe\" \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\" //m
+	trustexitcode = true
+[mergetool "vsdiffmerge"]
+	keepbackup = false
+
+# vim:ft=gitconfig
