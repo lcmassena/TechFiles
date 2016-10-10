@@ -14,9 +14,10 @@
 [alias]
 	#log
 	l  = log --graph --pretty=format:'%C(yellow)%h  %C(red)[%an]  %C(white)[%cr - %cd]  %C(cyan)%d%n  %C(white)%s%n'
-	la  = log --graph --pretty=format:'%C(yellow)%h  %C(red)[%an]  %C(white)[%cr - %cd]  %C(cyan)%d%n  %C(white)%s%n' --all
-	lf  = log --graph --pretty=format:'%C(yellow)%h  %C(red)[%an]  %C(white)[%cr - %cd]  %C(cyan)%d%n  %C(white)%s%n' --all --name-status
-
+	la = log --graph --pretty=format:'%C(yellow)%h  %C(red)[%an]  %C(white)[%cr - %cd]  %C(cyan)%d%n  %C(white)%s%n' --all
+	lf = log --graph --pretty=format:'%C(yellow)%h  %C(red)[%an]  %C(white)[%cr - %cd]  %C(cyan)%d%n  %C(white)%s%n' --all --name-status
+	lg = log --graph --pretty=format:'%C(bold cyan)%h%Creset -%C(yellow)%d%Creset %s %C(bold normal)(%cr) %C(green)<%an>%Creset' --abbrev-commit —d ate=relative
+	
 	#status
 	s = status
 	#remotes
