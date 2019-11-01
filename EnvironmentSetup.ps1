@@ -10,6 +10,7 @@ choco install visualstudiocode -y
 ## uncomment following lines to change VS Version
 #choco install visualstudio2019professional -y
 choco install visualstudio2019enterprise -y
+choco install sql-server-management-studio -y
 
 choco install nodejs.install -y
 choco install docker-desktop -y
