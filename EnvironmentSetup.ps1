@@ -10,7 +10,6 @@ choco install visualstudiocode -y
 ## uncomment following lines to change VS Version
 #choco install visualstudio2019professional -y
 choco install visualstudio2019enterprise -y
-choco install sql-server-management-studio -y
 
 choco install nodejs.install -y
 choco install docker-desktop -y
@@ -25,17 +24,13 @@ choco install microsoft-teams -y
 choco install lightshot -y
 choco install powerbi -y
 choco install zoomit -y
-choco install microsoft-teams -y
-#choco install office365proplus -y
 
 #Personal Stuff
 choco install googlechrome -y
-choco install googledrive -y
 choco install whatsapp -y
 choco install spotify -y
 choco install skype -y
 choco install winrar -y
-#choco install origin -y ##Instal EA Origin downloader
 
 
 #Environment Stuff
@@ -67,6 +62,7 @@ get-appxpackage *getstarted* | remove-appxpackage
 get-appxpackage *3dbuilder* | remove-appxpackage
 get-appxpackage Microsoft.ZuneVideo | remove-appxpackage
 get-appxpackage Microsoft.ZuneMusic | remove-appxpackage
+
 get-appxpackage Microsoft.WindowsMaps | remove-appxpackage
 get-appxpackage Microsoft.SkypeApp | remove-appxpackage
 get-appxpackage Microsoft.MixedReality.Portal | remove-appxpackage
