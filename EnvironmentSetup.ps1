@@ -6,6 +6,7 @@ iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
 choco install git -y
 choco install gitextensions -y
 choco install visualstudiocode -y
+choco install webpi -y
 
 ## uncomment following lines to change VS Version
 #choco install visualstudio2019professional -y
