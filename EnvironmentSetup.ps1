@@ -15,6 +15,7 @@ choco install visualstudio2019enterprise -y
 choco install nodejs.install -y
 choco install docker-desktop -y
 choco install docker-kitematic -y
+choco install kubernetes-cli -y
 
 choco install azure-cli -y
 choco install azure-data-studio -y
