@@ -7,15 +7,18 @@ choco install git -y
 choco install gitextensions -y
 choco install visualstudiocode -y
 choco install webpi -y
+choco install yarn -y
 
 ## uncomment following lines to change VS Version
 #choco install visualstudio2019professional -y
 choco install visualstudio2019enterprise -y
+choco install sql-server-management-studio -y
 
 choco install nodejs.install -y
 choco install docker-desktop -y
 choco install docker-kitematic -y
 choco install kubernetes-cli -y
+choco install microsoftazurestorageexplorer -y
 
 choco install azure-cli -y
 choco install azure-data-studio -y
@@ -33,6 +36,7 @@ choco install whatsapp -y
 choco install spotify -y
 choco install skype -y
 choco install winrar -y
+choco install everything -y
 
 
 #Environment Stuff
