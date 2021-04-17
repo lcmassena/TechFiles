@@ -44,6 +44,7 @@ choco install teamspeak -y
 #NPM Things
 npm i -g npm #update npm
 npm i -g firebase-tools
+npm i -g @ionic/cli
 
 
 #Environment Stuff
