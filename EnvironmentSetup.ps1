@@ -33,10 +33,17 @@ choco install zoomit -y
 #Personal Stuff
 choco install googlechrome -y
 choco install whatsapp -y
-choco install spotify -y
+#choco install spotify -y  #installer not working
 choco install skype -y
 choco install winrar -y
 choco install everything -y
+choco install google-backup-and-sync -y
+#choco install battle.net -y  #installer not working
+choco install teamspeak -y
+
+#NPM Things
+npm i -g npm #update npm
+npm i -g firebase-tools
 
 
 #Environment Stuff
