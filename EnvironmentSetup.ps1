@@ -83,3 +83,14 @@ get-appxpackage Microsoft.Print3D | remove-appxpackage
 get-appxpackage Microsoft.MicrosoftSolitaireCollection | remove-appxpackage
 get-appxpackage Microsoft.GetHelp | remove-appxpackage
 get-appxpackage Microsoft.GetStarted | remove-appxpackage
+
+
+
+#TODO:
+# Remove on Regedit, the 3D Objects folder
+# https://www.thewindowsclub.com/remove-3d-objects-folder-winows-10#:~:text=To%20remove%20this%20system%20folder,open%20the%20Windows%20Registry%20editor.&text=Now%2C%20to%20remove%20the%20folder,the%20entry%2C%20and%20select%20Delete.&text=That%27s%20it!,PC%27%20heading%20of%20File%20Explorer.
+
+# Move the users folders to another drive
+#
+
+
