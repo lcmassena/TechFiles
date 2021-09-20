@@ -40,6 +40,7 @@ choco install everything -y
 choco install google-backup-and-sync -y
 #choco install battle.net -y  #installer not working
 choco install teamspeak -y
+choco install discord.install
 
 #NPM Things
 npm i -g npm #update npm
