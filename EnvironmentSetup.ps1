@@ -46,6 +46,7 @@ choco install discord.install
 npm i -g npm #update npm
 npm i -g firebase-tools
 npm i -g @ionic/cli
+npm i -g windows-build-tools
 
 
 #Environment Stuff
