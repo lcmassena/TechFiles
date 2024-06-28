@@ -11,7 +11,7 @@ choco install yarn -y
 
 ## uncomment following lines to change VS Version
 #choco install visualstudio2019professional -y
-choco install visualstudio2019enterprise -y
+choco install visualstudio2022enterprise -y
 choco install sql-server-management-studio -y
 
 choco install nodejs.install -y
@@ -19,24 +19,24 @@ choco install docker-desktop -y
 choco install docker-kitematic -y
 choco install kubernetes-cli -y
 choco install microsoftazurestorageexplorer -y
+choco install servicebusexplorer -y
 
 choco install azure-cli -y
 choco install azure-data-studio -y
-choco install fiddler4 -y
 
 #Work tools
 choco install microsoft-teams -y
-choco install lightshot -y
-choco install powerbi -y
+choco install flameshot -y
+#choco install powerbi -y
 choco install zoomit -y
 
 #Personal Stuff
 choco install googlechrome -y
 choco install whatsapp -y
 #choco install spotify -y  #installer not working
-choco install skype -y
+#choco install skype -y
 choco install winrar -y
-choco install everything -y
+#choco install everything -y
 choco install google-backup-and-sync -y
 #choco install battle.net -y  #installer not working
 choco install teamspeak -y
@@ -45,8 +45,8 @@ choco install discord.install
 #NPM Things
 npm i -g npm #update npm
 npm i -g firebase-tools
-npm i -g @ionic/cli
-npm i -g windows-build-tools
+#npm i -g @ionic/cli
+#npm i -g windows-build-tools
 
 
 #Environment Stuff
