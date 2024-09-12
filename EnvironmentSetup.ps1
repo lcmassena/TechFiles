@@ -8,6 +8,7 @@ choco install gitextensions -y
 choco install visualstudiocode -y
 choco install webpi -y
 choco install yarn -y
+choco install github-desktop -y
 
 ## uncomment following lines to change VS Version
 #choco install visualstudio2019professional -y
